@@ -1,0 +1,36 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet'
+
+[[plugins]]
+repo = 'pocke/neosnippet-snippets'
+
+[[plugins]]
+repo = 'pocke/neosnippet-incomment'
+
+[[plugins]]
+repo = 'tyru/caw.vim.git'
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+
+[[plugins]]
+repo = 'travitch/hasksyn'
+
+[[plugins]]
+repo = 'mattn/emmet-vim'
+
+[[plugins]]
+repo = 'keith/swift.vim'
+
+[[plugins]]
+repo = 'fatih/vim-go'
+
+[[plugins]]
+repo = 'udalov/kotlin-vim'
+
+[[plugins]]
+repo = 'davidhalter/jedi-vim'
+on_ft = 'python'

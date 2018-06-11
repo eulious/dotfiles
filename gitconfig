@@ -1,0 +1,4 @@
+[include]
+    path = ~/dropbox/.set/git.ini
+[core]
+	editor = /usr/bin/vim
