@@ -1,0 +1,52 @@
+snippet		canvas
+abbr		document.getElementById
+options		head
+	var canvas = document.getElementById('${0}');
+
+snippet		cl
+abbr		console.log
+options		word
+	console.log(${0});
+
+snippet		ctx
+abbr		canvas.getContext
+options		head
+	var ctx = canvas.getContext('2d');
+	${0}
+
+snippet		do
+abbr		document.
+options		word
+	document.
+
+snippet		fn
+abbr		function
+options		word
+	function ${0}
+
+snippet		hoge
+abbr		console.log("hoge");
+options		head
+	console.log("hoge");
+
+snippet		range
+abbr		range(), len()
+options		head
+	function range(min,max){if(arguments.length==0){throw new Error('range expected at least 1 arguments, got 0');return;}else if(arguments.length>2){throw new Error('range expected at most 3 arguments, got '+arguments.length);return;}else if(typeof min!=='number'){throw new Error('range() integer min argument expected, got '+typeof min);return;}else if(typeof max!=='number' && typeof max!=='undefined'){throw new Error('range() integer max argument expected, got '+typeof max);return;}if(arguments.length==1){max=min;min=0;}return{get min(){return min;},get max(){return max;},includes:function(x){return min<=x&&x<max;},toString:function(){return "["+min+","+max+"]";},__iterator__:function(){let val=Math.ceil(min);return{next:function(){if(val>max-1)throw StopIteration;return val++;}};}};};function len(list){if(arguments.length!=1||typeof list!=='string'&&typeof list!=='object'){throw new Error('syntax error near unexpected token '+list);return;}return list.length;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

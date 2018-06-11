@@ -1,0 +1,161 @@
+snippet		#!
+abbr		#!/usr/bin/env python
+alias		shebang
+options		head
+	#!/usr/bin/env python
+	# coding:utf-8
+	${0}
+
+
+snippet		ap
+abbr		append
+options		word
+	append(${0})
+
+snippet		ar
+abbr		sys.argv
+options		head
+	argvs = sys.argv
+	if len(argvs) != 2:
+		print('Usage: # python %s filename' % argvs[0])
+		quit()
+	${0}
+
+snippet		fo
+abbr		f=open(...): "..."
+options		head
+	f = open('${0}', 'rt')
+	lines = f.readlines()
+	f.close()
+
+snippet		for
+abbr		for i in range (...): ...
+options		head
+	for i in range(len(${0})):
+
+snippet		fw
+abbr		f=open(...,'wt')
+options		head
+	f = open('${0}', 'wt')
+	for line in lines:
+		line = line.replace("\n", "")
+		print(line, file=f)
+	f.close()
+
+snippet		hoge
+abbr		print('hoge')
+options		head
+	:rint('hoge')
+
+snippet		im
+abbr		import ...
+options		head
+	import ${0}
+
+snippet		init
+abbr		def __init__
+options		head
+	def __init__(self${0}):
+
+snippet		mac
+abbr		os.uname()
+options		head
+	if re.search("mini", os.uname()[1]):
+	if re.search("Air", os.uname()[1]):
+	if re.search("pro", os.uname()[1]):
+
+snippet		main
+abbr		if __name__ == '__main__':
+options		head
+	if __name__ == '__main__':
+		${0}
+
+
+snippet		pr
+abbr		print(...)
+options		head
+	print(${0})
+
+snippet		py2
+abbr		__future__
+options		head
+	from __future__ import print_function
+	from __future__ import unicode_literals
+	from __future__ import absolute_import
+	from __future__ import generators
+	from __future__ import division
+	${0}
+
+snippet		rem
+abbr		m = re.match(...)
+options		head
+	m = re.match(${0})
+	if m:
+
+snippet		self
+abbr		def hoge(self):
+options		head
+	def ${1}(self):
+		pass
+
+	${0}
+
+snippet		sp
+abbr		subprocess
+options		word
+	subprocess
+
+snippet		spc
+abbr		subprocess.call
+options		head
+	cmd = ''
+	subprocess.call(cmd, shell=True)
+
+
+
+
+
+
+
+
+
+
+snippet		watch
+abbr		getmtime
+options		head
+	a = 0
+	b = 0
+	rate = 1
+	count = 1
+
+	while True:
+		time.sleep(rate)
+		
+		count += 1
+		if count == 300:
+			rate = 5
+					
+		b = a
+		a = os.path.getmtime(name)
+		if b != a:
+			count = 1
+			rate = 1
+			${0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

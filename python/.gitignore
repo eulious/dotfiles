@@ -1,0 +1,6 @@
+*.txt
+*.db
+*.ini
+tags
+.DS_Store
+*/

@@ -1,0 +1,108 @@
+snippet begin
+alias	\begin
+	\begin{${1:#:type}}
+	${2:TARGET}
+	\end{$1}
+
+snippet enu
+alias	\begin{enumerate} \list
+	\begin{enumerate}
+	 \item ${1}
+
+	\end{enumerate}
+
+snippet eqn
+alias	\begin{eqnarray}
+	\begin{eqnarray}
+	 ${1:TARGET}
+	\end{eqnarray}
+
+snippet		fl
+abbr		&()　& \\ \nonumber
+options		head
+	&()　${0} &\\ \nonumber
+
+snippet		im
+abbr		label
+options		head
+	\includegraphics[width=\linewidth]{img/${0}.jpg}
+
+snippet		it
+abbr		\item{}
+options		head
+	\item ${0}
+
+snippet		la
+abbr		label
+options		head
+	\label{${0}}
+
+snippet		lst
+abbr		lstlisting
+options		head
+	\begin{lstlisting}[caption=${1}]
+
+	\end{lstlisting}
+
+snippet		mini
+abbr		minipage
+options		head
+	\begin{minipage}[c]{0.49\linewidth}
+		${0}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[c]{0.49\linewidth}
+
+	\end{minipage}
+
+snippet		mt
+abbr		mathrm
+options		word
+	\, \mathrm{[${0}]}
+
+
+snippet		mu
+abbr		multicolumn
+options		word
+	\multicolumn{${1}}{|l|}{${2}}
+
+snippet		se
+abbr		section
+options		head
+	\section{${0}
+
+snippet		sse
+abbr		subsection
+options		head
+	\subsection{${0}
+
+snippet		ssse
+abbr		subsubsection
+options		head
+	\subsubsection{${0}
+
+snippet		tri
+abbr		triangle
+options		head
+	△
+
+snippet		ul
+abbr		\underline
+options		word
+	\underline{${0}
+
+snippet		vs
+abbr		vspace
+options		head
+	\vspace{5cm}
+
+snippet		zu
+abbr		figure
+options		head
+	\begin{figure}[H]
+	 \centering
+	  \includegraphics[width=12cm]{img/zu${1}.png}
+	 \caption{}
+	 \label{zu${1}}
+	\end{figure}
+

@@ -1,0 +1,50 @@
+snippet			#!
+abbr				#! /usr/bin/env ruby
+options			head
+	#! /usr/bin/env ruby
+	${0}
+
+snippet			fo
+abbr				readlines
+options			head
+	f = open("${0}","r")
+	lines = f.readlines
+	f.close
+
+snippet			fw
+abbr				f.puts
+options			head
+	f = open("${0}","w")
+	for line in lines
+		f.puts line
+	end
+	f.close
+
+snippet			re
+abbr				require
+options			head
+	require ${0}
+
+snippet			sh
+abbr				shellwords
+options			head
+	require 'shellwords'
+	${0}
+
+snippet			sy
+abbr				system()
+options			head
+	system(${0})
+
+
+
+
+
+
+
+
+
+
+
+
+
