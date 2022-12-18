@@ -1,0 +1,81 @@
+{
+    "rules": [
+        {
+            "file": "g600_clipstudio.csv",
+            "description": "G600 for CLIP STUDIO",
+            "conditions": [
+                {
+                    "type": "frontmost_application_if",
+                    "bundle_identifiers": [
+                        "jp.co.celsys.CLIPSTUDIOPAINT"
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "g600_logicpro.csv",
+            "description": "G600 for LogicProX",
+            "conditions": [
+                {
+                    "type": "frontmost_application_if",
+                    "bundle_identifiers": [
+                        "com.apple.logic10"
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "g600_minecraft.csv",
+            "description": "G600 for Minecraft",
+            "conditions": [
+                {
+                    "type": "frontmost_application_if",
+                    "file_paths": [
+                        "~/Library/Application Support/minecraft/runtime/java-runtime-gamma/mac-os-arm64/java-runtime-gamma/jre.bundle/Contents/Home/bin/java"
+                    ]
+                }
+            ]
+        },
+        # {
+        #     "file": "keypad_clipstudio.csv",
+        #     "description": "Keypad for CLIP STUDIO",
+        #     "conditions": [
+        #         {
+        #             "type": "frontmost_application_if",
+        #             "bundle_identifiers": [
+        #                 "jp.co.celsys.CLIPSTUDIOPAINT"
+        #             ]
+        #         }
+        #     ]
+        # },
+        {
+            "file": "g600_blender.csv",
+            "description": "G600 for Blender",
+            "conditions": [
+                {
+                    "type": "frontmost_application_if",
+                    "bundle_identifiers": [
+                        "org.blenderfoundation.blender"
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "g600_default.csv",
+            "description": "G600 default keyconfig",
+            "conditions": [
+                {
+                    "type": "frontmost_application_unless",
+                    "bundle_identifiers": [
+                        "org.blenderfoundation.blender",
+                        "jp.co.celsys.CLIPSTUDIOPAINT",
+                        "com.apple.logic10"
+                    ],
+                    "file_paths": [
+                        "~/Library/Application Support/minecraft/runtime/java-runtime-gamma/mac-os-arm64/java-runtime-gamma/jre.bundle/Contents/Home/bin/java"
+                    ]
+                }
+            ]
+        }
+    ]
+}

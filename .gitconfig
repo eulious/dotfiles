@@ -1,0 +1,7 @@
+[user]
+	name = eulious
+[alias]
+    co=checkout
+    st=status
+    br=branch
+    l=log --decorate --oneline
