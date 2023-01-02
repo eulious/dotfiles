@@ -1,0 +1,37 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+shift+j",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "cmd+shift+k",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "cmd+shift+t",
+        "command": "workbench.action.terminal.newInActiveWorkspace"
+    },
+    {
+        "key": "cmd+shift+w",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+3",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "extension.vim_escape"
+    }
+]
