@@ -1,5 +1,6 @@
 [user]
-	name = eulious
+	name=eulious
+	email={ID}+{username}@users.noreply.github.com
 [alias]
     co=checkout
     st=status
