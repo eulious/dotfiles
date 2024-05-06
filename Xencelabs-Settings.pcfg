@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Root>
+  <PenTableLists version="1.0.0">
+    <Md4c3200462e3>
+      <Tablet>
+        <DeviceInfo>
+          <DeviceRingNum>1</DeviceRingNum>
+          <DeviceKeyNum>8</DeviceKeyNum>
+          <DeviceControl>1</DeviceControl>
+        </DeviceInfo>
+        <Common>
+          <ScreenMapping id="1">
+            <SX>0</SX>
+            <SY>0</SY>
+            <SW>2560</SW>
+            <SH>1440</SH>
+          </ScreenMapping>
+          <TabletPannel Orientation="0">
+            <TX>0</TX>
+            <TY>0</TY>
+            <TW>2060</TW>
+            <TH>1165</TH>
+          </TabletPannel>
+          <DisableInfo>0</DisableInfo>
+          <DisableQuickKey>0</DisableQuickKey>
+          <DisablePressure>0</DisablePressure>
+          <LargePen_RelativeCoords Speed="5">0</LargePen_RelativeCoords>
+          <ThinPen_RelativeCoords Speed="5">0</ThinPen_RelativeCoords>
+          <LargePen_DisablePenTilt>0</LargePen_DisablePenTilt>
+          <ThinPen_DisablePenTilt>0</ThinPen_DisablePenTilt>
+          <LargePen_DisablePenButtons>0</LargePen_DisablePenButtons>
+          <ThinPen_DisablePenButtons>0</ThinPen_DisablePenButtons>
+          <LargePen_DisableTipClick>0</LargePen_DisableTipClick>
+          <ThinPen_DisableTipClick>0</ThinPen_DisableTipClick>
+          <PictureFiles>
+            <T_0 H="94" Y="110" X="39" W="166"/>
+            <T_1 H="94" Y="110" X="39" W="166"/>
+            <T_2 H="94" Y="110" X="39" W="166"/>
+            <T_3 H="94" Y="110" X="39" W="166"/>
+          </PictureFiles>
+        </Common>
+        <DefaultSetting>
+          <LargePen>
+            <PenBtn1 id="1" Actid="102"/>
+            <PenBtn2 id="1" Actid="104"/>
+            <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
+            <PenBtn0 id="7" Actid="7"/>
+            <Pen py="0.5" px="0.5" p2="1" p0="0"/>
+            <Erase py="0.5" px="0.5" p2="1" p0="0"/>
+          </LargePen>
+          <ThinPen>
+            <PenBtn2 id="1" Actid="102"/>
+            <PenBtn3 id="1" Actid="104"/>
+            <PenBtn0 id="7" Actid="7"/>
+            <Pen py="0.5" px="0.5" p2="1" p0="0"/>
+            <Erase py="0.5" px="0.5" p2="1" p0="0"/>
+          </ThinPen>
+          <K>
+            <K1 Motid="1" id="4" Actid="404" Show="1"/>
+            <K2 Motid="2" id="4" Actid="405" Show="1"/>
+            <K3 Motid="3" id="4" Actid="402" Show="1"/>
+          </K>
+          <color colorbright="2" id="5"/>
+          <TablePC>1</TablePC>
+        </DefaultSetting>
+        <CommonAPP>
+          <LargePen Tilt="1">
+            <PenBtn1 id="1" Actid="103"/>
+            <PenBtn2 id="1" Actid="103"/>
+            <PenBtn3 id="2" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</PenBtn3>
+            <PenBtn0 id="7" Actid="7"/>
+            <Pen py="0.5" px="0.5" p2="1" p0="0"/>
+            <Erase py="0.5" px="0.5" p2="1" p0="0"/>
+          </LargePen>
+          <ThinPen Tilt="1">
+            <PenBtn2 id="1" Actid="103"/>
+            <PenBtn3 id="1" Actid="104"/>
+            <PenBtn0 id="9" Actid="9"/>
+            <Pen py="0.4" px="0.3" p2="1" p0="0"/>
+            <Erase py="0.5" px="0.5" p2="1" p0="0"/>
+          </ThinPen>
+          <K>
+            <K1 Motid="1" id="2" Actid="2" Show="1">2|save|Command+s|16777250:55+83:1</K1>
+            <K2 Motid="2" id="4" Actid="402" Show="1"/>
+            <K3 Motid="3" id="2" Actid="2" Show="1">2|shift|Shift|16777248:56</K3>
+          </K>
+          <color colorbright="1" id="4"/>
+          <TablePC>1</TablePC>
+        </CommonAPP>
+        <Apps/>
+      </Tablet>
+    </Md4c3200462e3>
+  </PenTableLists>
+  <Tools>
+    <Radial name="">
+      <Default>
+        <K>
+          <K1 Motid="1" id="2" lock="0" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+          <K2 Motid="2" id="2" lock="0" Actid="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+          <K3 Motid="3" id="2" lock="0" Actid="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+          <K4 Motid="4" id="2" lock="0" Actid="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+          <K5 Motid="5" id="2" lock="0" Actid="2">2|*#Save|Command+S|16777250:55+83:1</K5>
+          <K6 Motid="6" id="2" lock="0" Actid="2">2|*#Deselect|Command+D|16777250:55+68:2</K6>
+          <K7 Motid="7" id="2" lock="0" Actid="2">2|*#Enter|Enter|16777220:76</K7>
+          <K8 Motid="8" id="2" lock="0" Actid="2">2|*#Space|Space|32:49</K8>
+        </K>
+      </Default>
+      <CommonAPP>
+        <K cID="0">
+          <Set id="0" lock="0" name="" enable="1">
+            <K1 id="2" lock="0" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+            <K2 id="2" lock="0" Actid="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+            <K3 id="2" lock="0" Actid="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+            <K4 id="2" lock="0" Actid="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+            <K5 id="2" lock="0" Actid="2">2|*#Save|Command+S|16777250:55+83:1</K5>
+            <K6 id="2" lock="0" Actid="2">2|*#Deselect|Command+D|16777250:55+68:2</K6>
+            <K7 id="2" lock="0" Actid="2">2|*#Enter|Enter|16777220:76</K7>
+            <K8 id="2" lock="0" Actid="2">2|*#Space|Space|32:49</K8>
+          </Set>
+          <Set id="1" lock="0" name="" enable="0">
+            <K1 id="2" lock="0" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+            <K2 id="2" lock="0" Actid="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+            <K3 id="2" lock="0" Actid="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+            <K4 id="2" lock="0" Actid="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+            <K5 id="2" lock="0" Actid="2">2|*#Save|Command+S|16777250:55+83:1</K5>
+            <K6 id="2" lock="0" Actid="2">2|*#Deselect|Command+D|16777250:55+68:2</K6>
+            <K7 id="2" lock="0" Actid="2">2|*#Enter|Enter|16777220:76</K7>
+            <K8 id="2" lock="0" Actid="2">2|*#Space|Space|32:49</K8>
+          </Set>
+          <Set id="2" lock="0" name="" enable="0">
+            <K1 id="2" lock="0" Actid="2">2|*#Undo|Command+Z|16777250:55+90:6</K1>
+            <K2 id="2" lock="0" Actid="2">2|*#Redo|Command+Y|16777250:55+89:16</K2>
+            <K3 id="2" lock="0" Actid="2">2|*#Copy|Command+C|16777250:55+67:8</K3>
+            <K4 id="2" lock="0" Actid="2">2|*#Paste|Command+V|16777250:55+86:9</K4>
+            <K5 id="2" lock="0" Actid="2">2|*#Save|Command+S|16777250:55+83:1</K5>
+            <K6 id="2" lock="0" Actid="2">2|*#Deselect|Command+D|16777250:55+68:2</K6>
+            <K7 id="2" lock="0" Actid="2">2|*#Enter|Enter|16777220:76</K7>
+            <K8 id="2" lock="0" Actid="2">2|*#Space|Space|32:49</K8>
+          </Set>
+        </K>
+      </CommonAPP>
+      <Apps/>
+    </Radial>
+  </Tools>
+  <AppList/>
+  <FileNotes>
+    <DataCreated>2023-01-15</DataCreated>
+    <OS>Mac</OS>
+    <LanguageSource>Japanese</LanguageSource>
+    <KeyboardSource>6</KeyboardSource>
+    <DriverVersion>1.2.1-40</DriverVersion>
+    <Notes/>
+  </FileNotes>
+</Root>

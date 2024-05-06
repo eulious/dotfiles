@@ -1,72 +1,80 @@
 {
-    "window.zoomLevel": 1,
-    "editor.tabSize": 4,
-    "vim.useSystemClipboard": true,
-    "vim.hlsearch": true,
-    "vim.autoSwitchInputMethod.defaultIM": "com.apple.inputmethod.Kotoeri.RomajiTyping.Roman",
-    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/true",
-    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
-    "vim.autoSwitchInputMethod.enable": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "ctrl+j"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "v"
-            ],
-            "after": [
-                "l",
-                "$",
-                "h"
-            ]
-        },
-        {
-            "before": [
-                "ctrl+j"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "C_Cpp.intelliSenseEngineFallback": "disabled",
-    "C_Cpp.errorSquiggles": "disabled",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "terminal.integrated.inheritEnv": false,
-    "python.languageServer": "Pylance",
-    "explorer.confirmDelete": false,
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
+  "window.zoomLevel": 1,
+  "vim.autoSwitchInputMethod.defaultIM": "com.apple.inputmethod.Kotoeri.RomajiTyping.Roman",
+  "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/true",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+  "vim.autoSwitchInputMethod.enable": true,
+
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["ctrl+j"],
+      "after": ["<Esc>"]
     },
-    "python.formatting.autopep8Args": [
-        "--ignore",
-        "E70",
-        "--max-line-length",
-        "999"
-    ],
-    "python.linting.pylintEnabled": false,
-    "go.toolsManagement.autoUpdate": true,
-    "python.formatting.provider": "none",
-    "python.formatting.autopep8Path": "",
-    "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "left"
+    {
+      "before": ["#"],
+      "after": ["editor.action.commentLine"]
     },
-    "python.defaultInterpreterPath": "~/.pyenv/shims/python",
-    "security.workspace.trust.untrustedFiles": "open",
-    "svelte.enable-ts-plugin": true,
-    "java.debug.settings.enableRunDebugCodeLens": false,
-    "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
-    "java.inlayHints.parameterNames.enabled": "none"
+    {
+      "before": ["N"],
+      "after": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["P"],
+      "after": ["workbench.action.previousEditor"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["ctrl+j"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["v"],
+      "after": ["l", "$", "h"]
+    },
+    {
+      "before": ["#"],
+      "after": ["editor.action.commentLine"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["ctrl+j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "[hpp]": {
+    "editor.tabSize": 2
+  },
+  "[cpp]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
 }
