@@ -1,8 +1,8 @@
 {
   "window.zoomLevel": 1,
-  "vim.autoSwitchInputMethod.defaultIM": "com.apple.inputmethod.Kotoeri.RomajiTyping.Roman",
+  "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
   "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/true",
-  "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/opt/homebrew/bin/im-select {im}",
   "vim.autoSwitchInputMethod.enable": true,
 
   "editor.formatOnType": true,
